@@ -1,0 +1,60 @@
+.typewriter-header h1 {
+    overflow: hidden;
+    border-right: 10px solid rgba(0, 0, 0, 0.681);
+    white-space: nowrap;
+    margin-bottom: 10px;
+    letter-spacing: .12em;
+    width: 60px; /* Adjust the width as needed */
+    height: 20%;
+        animation: typing 2.5s steps(15, end) forwards, blink-caret 0.86s step-end infinite;
+    font-size: 70px;
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+@keyframes typing {
+    from { width: 0% }
+    to { width: 60% }
+}
+
+@keyframes blink-caret {
+    0%, 100% { border-color: rgb(0, 0, 0); }
+    50% { border-color: transparent; }
+}
+
+.typewriter-header p {
+    margin-top: 30px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .title {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .content-container {
+    text-align: left;
+  }
+  
+  .side-projects-text {
+    font-size: 20px;
+  }
+
+.typewriter-header  p {
+
+    width:800px; 
+    height: 300px;
+    text-align: left;
+    margin-left: 20px; 
+  }
+  
+  .side-projects-text a {
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    font-weight: 500; 
+}
+
