@@ -64,6 +64,17 @@
             return span;
         }
 
+        $(document).ready(function () {
+            // Smooth scroll to project section
+            $('#project-link').on('click', function (event) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $('#project-section').offset().top
+                }, 800);
+            });
+        });
+
+
         document.addEventListener('DOMContentLoaded', function () {
         var footer = document.querySelector('.footers');
         var isFooterVisible = false;
