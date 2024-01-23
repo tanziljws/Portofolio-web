@@ -65,7 +65,7 @@
         }
 
         $(document).ready(function () {
-            // Smooth scroll to project section
+
             $('#project-link').on('click', function (event) {
                 event.preventDefault();
                 $('html, body').animate({
