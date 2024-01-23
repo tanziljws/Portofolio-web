@@ -4,7 +4,7 @@
     white-space: nowrap;
     margin-bottom: 10px;
     letter-spacing: .12em;
-    width: 60px; /* Adjust the width as needed */
+    width: 60px;
     height: 20%;
         animation: typing 2.5s steps(15, end) forwards, blink-caret 0.86s step-end infinite;
     font-size: 70px;
